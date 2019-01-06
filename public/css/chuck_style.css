@@ -96,7 +96,7 @@ code.request:hover {
 code.request a:hover {
  text-decoration:underline
 }
-code.request.c:before {
+code.request.c#:before {
  color:#f15a24;
  content:'C# '
 }
