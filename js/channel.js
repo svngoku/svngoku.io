@@ -1,20 +1,4 @@
-console.log('🤯')
-// translation test
-let lang = [ 'fr' , 'en']
-let traduction =  {
-  fr : {
-    py : "Python un langage de programmation interprété, de haut niveau, à usage général. Créé par Guido van Rossum et publié pour la première fois en 1991, Python repose sur une philosophie de conception qui met l’accent sur la lisibilité du code, en utilisant notamment des espaces significatifs. Il fournit des constructions qui permettent une programmation claire à la fois à petite et à grande échelle. En juillet 2018, Van Rossum a démissionné en tant que leader de la communauté linguistique."
-  },
-  en : {
-    py : "Python an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python has a design philosophy that emphasizes code readability, notably using significant whitespace. It provides constructs that enable clear programming on both small and large scales.[26] In July 2018, Van Rossum stepped down as the leader in the language community."
-  }
-}
-// prompt to choose your languages
-// let langue = prompt('Entrer la langue souhaité ')
-//   if (langue == 'en') {
-//     console.log(traduction.en.py);
-//   } else if( langue == 'fr') {
-//       console.log(traduction.fr.py);
-//   } else {
-//     console.log('Langue indisponible || language not found')
-//   }
+console.log('🤯');
+function toggleMe(n){var e=document.getElementById(n);if(!e){return!0};if('none'==e.style.display){e.style.display='block'}
+  else{e.style.display='none'};return!0};document.onkeydown=function(e){switch(e.keyCode){case 82:getJoke();break}};function getJoke(){var e=new XMLHttpRequest();e.onreadystatechange=function(){if(4==e.readyState&&200==e.status){var n=JSON.parse(e.responseText)
+    ;console.log(n.value);document.getElementById('response_icon_url').innerHTML=n.icon_url;document.getElementById('response_id').innerHTML=n.id;document.getElementById('response_url').innerHTML=n.url;document.getElementById('response_url').href=n.url;document.getElementById('response_text').innerHTML=n.value}};e.open('GET','/jokes/random',!0);e.send()};

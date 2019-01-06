@@ -1,12 +1,11 @@
 {
-  "name": "chucknorris",
+  "name": "svngoku.io",
   "version": "1.0.0",
   "description": "Portfolio ",
   "main": "index.html",
   "scripts": {
     "test": "npm test",
-    "start": "nodemon index.html",
-    "dev": "npm run-dev"
+    "start": "nodemon "
   },
   "author": "Svngoku",
   "license": "ISC",

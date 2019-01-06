@@ -159,22 +159,17 @@
           </p>
           <br>
         </section>
-        <script>
-          ;function toggleMe(n){var e=document.getElementById(n);if(!e){return!0};if('none'==e.style.display){e.style.display='block'}
-            else{e.style.display='none'};return!0};document.onkeydown=function(e){switch(e.keyCode){case 82:getJoke();break}};function getJoke(){var e=new XMLHttpRequest();e.onreadystatechange=function(){if(4==e.readyState&&200==e.status){var n=JSON.parse(e.responseText)
-              ;console.log(n.value);document.getElementById('response_icon_url').innerHTML=n.icon_url;document.getElementById('response_id').innerHTML=n.id;document.getElementById('response_url').innerHTML=n.url;document.getElementById('response_url').href=n.url;document.getElementById('response_text').innerHTML=n.value}};e.open('GET','/jokes/random',!0);e.send()};
-          </script>
       </div>
     <footer>
     <small class="disclaimer">This is why we love coding 💻</small>
-  <a id="twitter" class="btn follow twitter" href="https://twitter.com/AsapGoku_" target="_blank"><i></i><span>Twitter</span></a>
-  <a id="github" class="btn follow github" href="https://github.com/Svngoku" target="_blank"><i></i><span>GitHub</span></a>
-  <a class="btn follow homepage" href="https://portefoliomartynio.000webhostapp.com/Portfolio/" target="_blank" title="Portfolio"><i></i><span></span></a>
+    <a id="twitter" class="btn follow twitter" href="https://twitter.com/AsapGoku_" target="_blank"><i></i><span>Twitter</span></a>
+    <a id="github" class="btn follow github" href="https://github.com/Svngoku" target="_blank"><i></i><span>GitHub</span></a>
+    <a class="btn follow homepage" href="https://portefoliomartynio.000webhostapp.com/Portfolio/" target="_blank" title="Portfolio"><i></i>
+    <span></span>
+  </a>
   <small class="contribution"><b>Copyright:</b> 2019 by <a href="https://portefoliomartynio.000webhostapp.com/Portfolio/" target="_blank">Marty NIONGOLO</a></small
 </footer>
 </div>
-<script src="https://unpkg.com/github-api/dist/GitHub.min.js">
-
 </script>
 <script type="text/javascript" src="js/channel.js">
 <script type="text/javascript" src="js/prism.js">
