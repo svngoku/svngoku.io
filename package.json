@@ -1,0 +1,23 @@
+{
+  "name": "chucknorris",
+  "version": "1.0.0",
+  "description": "Portfolio ",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm test",
+    "start": "nodemon index.html",
+    "dev": "npm run-dev"
+  },
+  "author": "Svngoku",
+  "license": "ISC",
+  "devDependencies": {
+    "node-hot-loader": "^1.12.3",
+    "webpack": "^4.28.3"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "github-api": "^3.0.0",
+    "nodemon": "^1.18.9",
+    "prismjs": "^1.15.0"
+  }
+}
