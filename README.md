@@ -5,3 +5,6 @@ Personal website [svngoku.io](https://svngoku.github.io/svngoku.io/)
   * HTML 5
   * CSS 3
   * Vanilla JavaScript
+### License
+
+This project is licensed under the MIT License
