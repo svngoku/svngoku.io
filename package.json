@@ -4,8 +4,7 @@
   "description": "Portfolio ",
   "main": "index.html",
   "scripts": {
-    "test": "npm test",
-    "start": "nodemon "
+    "test": "npm test"
   },
   "author": "Svngoku",
   "license": "ISC",
