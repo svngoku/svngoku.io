@@ -2,18 +2,18 @@ import React from "react";
 
 // Profile component
 
-export default function Profile({ name, animal, breed }) {
+export default function Profile({title}) {
+    // src for image
     const imgSrc = "https://raw.githubusercontent.com/svngoku/Pyline-App/master/pp.png"
-    const styles = {
-        display: 'none',
-        
-    }
+    
+    // simple style for fun
+    const styles = { display: 'none'}
 
     return (
       <div>
         <header>
           <h1>
-            <a className="hvr-buzz-out" title="Marty NIONGOLO | Svngoku">
+            <a className="hvr-buzz-out" title={title}>
                 <img className="pp" alt="Personnal Profile" src={imgSrc} />
             </a>
           </h1>
@@ -21,8 +21,8 @@ export default function Profile({ name, animal, breed }) {
         <section>
             <div>
                 <p>
-                    <b><a href="https://github.com/Svngoku">Svngoku</a></b> is a junior full-stack developer and programmer passionate by programming and web developpment
-                    <a onClick={() => toggleMe('detailed-description')} href="#!🕶" >Read <span data-toggle-text="less">more</span></a>
+                    <b><a href="https://github.com/Svngoku">Svngoku</a></b> is a junior full-stack developer and programmer passionate by programming and web developpment.   
+                    <a onClick={() => toggleMe('detailed-description')} href="#!🕶" ><b>Read<span data-toggle-text="less"> more</span></b></a>
                 </p>
             </div>
 
