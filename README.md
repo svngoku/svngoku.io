@@ -10,7 +10,7 @@ Personal website [svngoku.io](https://svngoku.github.io/svngoku.io/)
 
 * Vanilla JavaScript
 
-* ReactJS
+* ReactJS ⚛
 
 ## License 📃
 
