@@ -39,7 +39,7 @@ export default function Languages(){
                     <code className={"request " + language}>
                         {resume}
                     </code>                         
-                        <ScriptTag isHydrating={true}  type="text/javascript" src={code} /> 
+                    <ScriptTag isHydrating={true}  type="text/javascript" src={code} /> 
                 </pre>
         </div>
     )   
@@ -48,8 +48,8 @@ export default function Languages(){
 function star(number) {
     const imgStar = "https://dumielauxepices.net/sites/default/files/stars-clipart-explosion-779070-6341730.png";
     const link = <img className="star" src={imgStar} width="35" />;
-    var content = [];
 
+    var content = [];
     for(var i = 0; i < number; i++) {
          content.push(link);   
     }
