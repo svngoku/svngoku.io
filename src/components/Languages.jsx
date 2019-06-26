@@ -39,7 +39,7 @@ export default function Languages(){
                     <code className={"request " + language}>
                         {resume}
                     </code>                         
-                    <ScriptTag isHydrating={true}  type="text/javascript" src={code} /> 
+                    œ<ScriptTag isHydrating={true}  type="text/javascript" src={code} /> 
                 </pre>
         </div>
     )   

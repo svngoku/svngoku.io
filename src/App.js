@@ -3,6 +3,7 @@ import { render } from "react-dom";
 import Profile from "./components/Profile.jsx"
 import Languages from './components/Languages.jsx'
 import Projects from "./components/Projects.jsx"
+import BooksLinks from "./components/BooksLinks.jsx"
 import Footer from "./components/Footer.jsx"
 
 const App = () => {
@@ -18,6 +19,9 @@ const App = () => {
 
                 {/* Project Component */}
                 <Projects />
+
+                {/* Books&Links Component */}
+                <BooksLinks />
 
                 {/* Footer Component */}
                 <Footer />
