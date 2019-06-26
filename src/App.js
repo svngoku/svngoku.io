@@ -4,6 +4,7 @@ import Profile from "./components/Profile.jsx"
 import Languages from './components/Languages.jsx'
 import Projects from "./components/Projects.jsx"
 import BooksLinks from "./components/BooksLinks.jsx"
+import Tools from "./components/Tools.jsx"
 import Footer from "./components/Footer.jsx"
 
 const App = () => {
@@ -22,6 +23,11 @@ const App = () => {
 
                 {/* Books&Links Component */}
                 <BooksLinks />
+
+                {/* Tools component */}
+                <h3 className="project">Tools</h3>
+                <p>What`s better than sharing the tools that allow me to code properly.</p> 
+                <Tools />
 
                 {/* Footer Component */}
                 <Footer />
