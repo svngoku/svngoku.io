@@ -5642,6 +5642,11 @@ react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
   integrity sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA==
 
+react-render-gist@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/react-render-gist/-/react-render-gist-1.0.5.tgz#2e07139b3878befe749e72d291e7712bcffbae62"
+  integrity sha1-LgcTmzh4vv50nnLSkedxK8/7rmI=
+
 react-script-tag@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/react-script-tag/-/react-script-tag-1.1.2.tgz#be0fa3a22dfae8165d083f6bc1ff6f9799b20d44"

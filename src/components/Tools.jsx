@@ -4,6 +4,8 @@ import React from "react";
 export default function Tools() {
     return (
          <div>
+            <h3 className="project">Tools</h3>
+            <p>What`s better than sharing the tools that allow me to code properly.</p> 
             <pre>
                 <Tool className="request tools"
                     resume="Probably the best Linux system for the web developer. I love working with this operating system. I can easily deploy applications and use the command line which is a great tool " 

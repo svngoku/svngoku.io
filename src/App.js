@@ -15,7 +15,6 @@ const App = () => {
                 <Profile title="Marty NIONGOLO | Svngoku" />
                 
                 {/* Languages Component */}
-                <h3 className="project">languages</h3>
                 <Languages/>
 
                 {/* Project Component */}
@@ -25,8 +24,6 @@ const App = () => {
                 <BooksLinks />
 
                 {/* Tools component */}
-                <h3 className="project">Tools</h3>
-                <p>What`s better than sharing the tools that allow me to code properly.</p> 
                 <Tools />
 
                 {/* Footer Component */}
