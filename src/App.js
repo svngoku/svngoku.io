@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/NavBar.jsx";
 import HomePage from "./components/HomePage.jsx";
 import Blog from "./components/Blog.jsx";
+import Blogs from "./components/Blogs.jsx";
 
 const App = () => {
     return (
@@ -11,6 +12,7 @@ const App = () => {
             <div>
                 <Navbar />
                 <Route exact path="/" component={HomePage} />
+                <Route path="/blogs/" component={Blogs} />                
                 <Route path="/blog/" component={Blog} />
             </div>
         </Router>

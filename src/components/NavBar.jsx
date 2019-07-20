@@ -6,14 +6,12 @@ export default function Navbar() {
     <nav className="navbar navbar-default navbar-fixed-top">
        <div className="collapse navbar-collapse">
            
-           <ul className="nav navbar-nav navbar-right">
-                <li>
+           <ul className="nav navbar-nav">
+                <li className=" navbar-left">
                     <Link to="/">Home</Link>
-                </li>
-
-                <li>
                     <Link to="/blogs">Blogs</Link>
                 </li>
+
             </ul>
        </div> 
     </nav>

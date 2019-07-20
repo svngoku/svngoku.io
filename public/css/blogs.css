@@ -13,12 +13,16 @@
 
 /* Style the top navigation bar */
 .navbar {
-    height: 80px;
+    height: 0px;
     background-color: transparent;
     border: none;
     color: white;
     z-index: 100;
     transition: background-color 1s ease 0s;
+  }
+  .navbar-left {
+    position: relative;
+    left: 70%;
   }
   .navbar-default .navbar-brand {
     margin-top: 10px;
@@ -103,4 +107,14 @@
     background-color: #aaa;
     width: 100%;
     padding: 20px;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 24px;
+    padding: 23px 0;
+
 }
