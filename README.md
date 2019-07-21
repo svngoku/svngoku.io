@@ -1,4 +1,4 @@
-# svngoku.io
+# svngoku.io [![Build Status](https://travis-ci.com/svngoku/svngoku.io.svg?branch=master)](https://travis-ci.com/svngoku/svngoku.io)
 
 Personal website [svngoku.io](https://svngoku.github.io/svngoku.io/)
 
