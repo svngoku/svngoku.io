@@ -26,10 +26,8 @@ export default function Profile({title}) {
             </div>
 
             <div id="detailed-description" style={styles}>
-                <p> Passionate about desktop, mobile and web application programming, I started in the system programming with <b>C</b> and 
-                <b>PHP</b>, two wonders that introduced me to the web and system development. Now I m using <b>Laravel</b> such as php framework , 
-                followed by  <b>JavaScript</b> and is frameworks such as <a href="https://threejs.org/"><b>Threejs</b></a>  , <a href="https://reactjs.org/"><b>ReactJs</b></a>  
-                and <a href="https://nodejs.org/en/"><b>NodeJs</b></a> to create dynamic, interactive websites ,
+                <p> Passionate about desktop, mobile and web application programming, I started in the system programming with <b>C</b> and <b>PHP</b>, two wonders that introduced me to the web and system development. Now I m using <b>Laravel</b> such as php framework , 
+                followed by  <b>JavaScript</b> and is frameworks such as <a href="https://threejs.org/"><b>Threejs</b></a>  , <a href="https://reactjs.org/"><b>ReactJs</b></a> and <a href="https://nodejs.org/en/"><b>NodeJs</b></a> to create dynamic, interactive websites ,
                 I write in <b>Python 3</b> with  <a href="http://flask.pocoo.org/"><b>Flask</b></a> framework to create APIS , and web components  . 
                 That allow me to code responsively and intelligently. 
                 I am a developer fascinated by new technologies and all his domains .
