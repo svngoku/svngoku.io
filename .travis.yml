@@ -1,17 +1,20 @@
-sudo: true
+sudo: required
 language: node_js
 node_js:
   - "stable"
 
-cache:
-  directories: 
-    - node_modules
-
-script:
-  - yarn test
-  - yarn dev
-
 git:
   quiet: true
 
+cache:
+  bundler: true
+  directories: 
+    - node_modules
+  yarn: true
+
+install:
+  - yarn
+
+script:
+  - yarn dev
 
