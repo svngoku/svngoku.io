@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 
 export default function Blog(){
    return (
@@ -21,7 +21,7 @@ function Header() {
 
 
 function BlogContent() {
-    const [date, setDate] = useState(Date());
+    const date = Date();
     return (
        <div className="container">
          <div className="main">
