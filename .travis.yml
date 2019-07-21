@@ -1,10 +1,17 @@
 sudo: true
 language: node_js
 node_js:
-  - node
+  - "stable"
+
+cache:
+  directories: 
+    - node_modules
+
+script:
+  - yarn test
+  - yarn dev
 
 git:
   quiet: true
 
-cache: yarn
 
