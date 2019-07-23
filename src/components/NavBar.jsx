@@ -1,4 +1,4 @@
-import React , { useState, useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom"
 
 export default function Navbar() {
@@ -11,7 +11,6 @@ export default function Navbar() {
                     <Link to="/">Home</Link>
                     <Link to="/blogs">Blogs</Link>
                 </li>
-
             </ul>
        </div> 
     </nav>
