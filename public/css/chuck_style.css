@@ -316,3 +316,8 @@ form#newsletter {
 #newsletter input[type=submit]:hover {
  cursor:pointer
 }
+
+
+.nightMode {
+  background-color: #111;
+}
