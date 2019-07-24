@@ -7,26 +7,24 @@ export default function Navbar() {
         window.addEventListener('scroll', handleScroll)
 
         function handleScroll() {
-            document.querySelector('nav').className = 'nav scroll';
+            if(window.scrollY) {
+                document.querySelector('nav').className = 'nav scroll';
+            } else {
+                document.querySelector('nav').className = 'nav ';
+            }
         }
-
-        function removeScroll() {
-            if(window.top) {
-                return !handleScroll();
-            } 
-        }
-
-        window.removeEventListener(scroll, removeScroll)
     })
+           
    return (
     <nav className={nav + ' navbar-default'}>
        <div className="nav-container">
             <div className="brand">
-                <span>🚀</span>
+            <img className="" alt="logo" src="" />
             </div>
            <div className="links">
-                <a href> <Link to="/">Home</Link> </a> 
-                <a href> <Link to="/blogs">Blogs</Link></a>
+                <Link to="/">Home</Link> 
+                <Link to="/blogs">Blogs</Link>
+                <Link to="/playground">Playground</Link>
             </div>
        </div> 
     </nav>
