@@ -10,7 +10,7 @@ export default function Navbar() {
             if(window.scrollY) {
                 document.querySelector('nav').className = 'nav scroll';
             } else {
-                document.querySelector('nav').className = 'nav ';
+                document.querySelector('nav').className = nav;
             }
         }
     })
@@ -19,7 +19,7 @@ export default function Navbar() {
     <nav className={nav + ' navbar-default'}>
        <div className="nav-container">
             <div className="brand">
-            <img className="" alt="logo" src="" />
+            <img  alt="logo" src="https://raw.githubusercontent.com/svngoku/svngoku.io/master/public/assets/octocat.ico" width="40" height="40" />
             </div>
            <div className="links">
                 <Link to="/">Home</Link> 
