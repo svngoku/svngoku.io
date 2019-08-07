@@ -1,4 +1,10 @@
 import React from "react";
+// import ReactMarkdown from "react-markdown";
+// import SAP from "../../public/markdown/SAP.md"
+// import RenderGist from "react-render-gist";
+
+
+
 export default function Blog(){
    return (
     <div>
@@ -20,14 +26,15 @@ function Header() {
 
 
 function BlogContent() {
-    const date = Date();
+    // const input = '# Hello from Venus'
+    //const date = Date();
+    
     return (
        <div className="container">
          <div className="main">
-            <div className="row">
-               <h1>TITLE HEADING</h1><small>{ date }</small>
-                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-           </div>
+            <img className="pp" alt="Personnal Profile" src={imgSrc} />
+            <span> Hello World </span>
+            {/* <ReactMarkdown source={SAP} /> */}
         </div>
        </div>
     );

@@ -6,6 +6,8 @@ import HomePage from "./components/HomePage.jsx";
 import Blog from "./components/Blog.jsx";
 import Blogs from "./components/Blogs.jsx";
 
+
+
 const App = () => {
     return (
         <Router>
@@ -14,6 +16,7 @@ const App = () => {
                 <Route exact path="/" component={HomePage} />
                 <Route path="/blogs/" component={Blogs} />                
                 <Route path="/blog/" component={Blog} />
+                {/* <Route path="blog/{id}"  component={Blog} /> */}
             </div>
         </Router>
        
