@@ -32,7 +32,6 @@ function BlogContent() {
     return (
        <div className="container">
          <div className="main">
-            <img className="pp" alt="Personnal Profile" src={imgSrc} />
             <span> Hello World </span>
             {/* <ReactMarkdown source={SAP} /> */}
         </div>

@@ -16,7 +16,7 @@ const App = () => {
                 <Route exact path="/" component={HomePage} />
                 <Route path="/blogs/" component={Blogs} />                
                 <Route path="/blog/" component={Blog} />
-                {/* <Route path="blog/{id}"  component={Blog} /> */}
+                <Route path="blog/:id"  component={Blog} />
             </div>
         </Router>
        

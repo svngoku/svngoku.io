@@ -19,10 +19,10 @@ export default function Navbar() {
     <nav className={nav + ' navbar-default'}>
        <div className="nav-container">
             <div className="brand">
-            <img  alt="logo" src="https://raw.githubusercontent.com/svngoku/svngoku.io/master/public/assets/octocat.ico" width="40" height="40" />
+            <a href="/"> <img  alt="logo" src="https://raw.githubusercontent.com/svngoku/svngoku.io/master/public/assets/octocat.ico" width="40" height="40" /> </a>
             </div>
            <div className="links">
-                <Link to="/">Home</Link> 
+                <Link to="/">About</Link> 
                 <Link to="/blogs">Blogs</Link>
                 <Link to="/playground">Playground</Link>
             </div>
