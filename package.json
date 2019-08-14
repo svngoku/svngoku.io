@@ -4,7 +4,8 @@
   "description": "Portfolio ",
   "main": "index.html",
   "scripts": {
-    "dev": "parcel public/index.html",
+    "start": "parcel public/index.html",
+    "build": "parcel build src/App.js",
     "format": "prettier  \"src/**/*.{js, html}\" --write",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "test": "jest"
