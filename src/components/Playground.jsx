@@ -1,20 +1,26 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect , Suspense, Fragment} from "react";
 import Embed from 'react-runkit';
 
 
-const [helloSource, setHelloSource] =  useState(`console.log('Hello, world!')`)
-
-useEffect( () => {
-    document.title = 'Playground | Svngoku.io'
-})
-
 
 export default function Playground() {
-    return (
-        <div className="wrapper">
-            <h1> Welcome to Playground</h1>
+    const [helloSource, setHelloSource] =  useState(`const javastips = require('javastips');
+    `)
+    
+    useEffect( () => {
+        document.title = 'Playground | Svngoku.io'
+    })
 
-            <Embed source={helloSource} />
+    return (
+       <Fragment>
+            <div className="wrapper">
+            <h1 className="text-center"> Welcome to Playground</h1>
+            <pre>Here, you can try my library based on data structure .</pre>
+            <Suspense fallback={<h1>Loading ....</h1>}>
+                <Embed source={helloSource} />
+            </Suspense>
+           
         </div>
+       </Fragment>
     );
 }
