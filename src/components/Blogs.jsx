@@ -1,7 +1,5 @@
 import React, {useState, useEffect} from "react";
 
-
-
 export default function Blogs(){
     const styleImg = {
         position:'relative',
@@ -27,17 +25,17 @@ export default function Blogs(){
    return (
        <div className="wrapper">
        <h3>Blogs pages</h3>
-        <a className="posts" href="/blog">
-            <div className="each box">
-                <div className="gatsby-image-wrapper" style={styleImg} >
-                    <img className="logo-image" alt='' src={blogs.picture} />
+        <a href="/blog">
+            <div className="posts each">
+                <div className="gatsby-image-wrapper">
+                    <img className="logo-image" alt='' style={styleImg}  src={blogs.picture} />
                 </div>
                 <div>
-                    <h2>{blogs.title}</h2>
+                    <h2 className="title">{blogs.title}</h2>
+                    <span> {blogs.date}</span>
                 </div>
             </div>
         </a>
-
        </div>    
    );
 }
