@@ -2183,7 +2183,7 @@ pre[class*=language-]::selection {
 }
 @font-face {
  font-family:PerfectDOS;
- src:url(/static/PerfectDos-51458c49387e34108ead6b220f699d54.ttf) format("truetype")
+ src:url(/17cf1cfb1bf297eed52e0e2f3cec57f5.ttf) format("truetype")
 }
 .not-found {
  background:#000084;
@@ -2313,3 +2313,6 @@ pre[class*=language-]::selection {
   opacity:1
  }
 }
+
+
+/*# sourceMappingURL=/tania.c84951d6.css.map */
