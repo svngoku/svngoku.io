@@ -14,10 +14,10 @@ const App = () => {
         <Router>
             <div>
                 <Navbar />
-                <Route exact path="/" component={HomePage} />
-                <Route path="/playground/" component={Playground} />
-                <Route path="/blogs/" component={Blogs} />                
-                <Route path="/blog/" component={Blog} />
+                <Route exact path="svngoku.io/" component={HomePage} />
+                <Route path="svngoku.io/playground/" component={Playground} />
+                <Route path="svngoku.io/blogs/" component={Blogs} />                
+                <Route path="svngoku.io/blog/" component={Blog} />
             </div>
         </Router>
        
