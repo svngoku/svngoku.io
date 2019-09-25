@@ -2,7 +2,7 @@
   "name": "svngoku.io",
   "version": "1.0.0",
   "description": "Portfolio ",
-  "main": "dist/index.html",
+  "main": "./dist/index.html",
   "homepage":"https://svngoku.github.io/svngoku.io",
   "scripts": {
     "start": "parcel public/index.html",
