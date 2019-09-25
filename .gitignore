@@ -1,6 +1,5 @@
 .DS_store
 .cache/
-dist/
 .vscode/
 node_modules/
 yarn-error.log
