@@ -11,7 +11,7 @@
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "test": "jest",
     "predeploy": "sudo yarn run build",
-    "deploy": "gh-pages -d ./ dist"
+    "deploy": "gh-pages -d public"
   },
   "author": "Svngoku",
   "license": "ISC",
