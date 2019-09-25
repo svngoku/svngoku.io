@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Portfolio ",
   "main": "public/index.html",
-  "homepage":"https://svngoku.github.io/svngoku.io",
+  "homepage":"https://svngoku.github.io/",
   "scripts": {
     "start": "parcel public/index.html",
     "build": "parcel build src/App.js",
@@ -11,7 +11,7 @@
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "test": "jest",
     "predeploy": "sudo yarn run build",
-    "deploy": "gh-pages -d public"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Svngoku",
   "license": "ISC",
