@@ -10,9 +10,6 @@ a:link {
   text-decoration: none;
 }
 
-a:visited {
-}
-
 .alert {
   display:none;
   align-self:center;
@@ -71,8 +68,8 @@ a:visited {
   margin:0;
   border:2px solid transparent
  }
- .posts.simple a .each:hover {
-  background:#fff
+ .posts.simple a .box .each:hover {
+  background-color:#969eaf;
  }
  .posts.simple .gatsby-image-wrapper {
   margin-top:0;
@@ -99,9 +96,9 @@ a:visited {
    margin:0 -2rem
   }
   .posts a .each:hover {
-   border-radius:4px;
-   background:#f2f2f2
-  }
+    border-radius:4px;
+    background:#f2f2f2
+   }
   .posts a .each:hoverlast-of-type:hover {
    border-bottom-color:#5183f5
   }
@@ -198,7 +195,15 @@ nav {
   justify-content:space-between;
   transition:height .3s ease
 }
-.nav .brand a{display:flex;align-items:center;color:#333;margin-right:0;font-weight:600;font-size:1.1rem}.nav .brand a:focus,.nav .brand a:hover{color:#000}.nav .brand .text{display:none}.nav .links{display:flex;flex-direction:row;justify-content:flex-end;flex:1 1;margin:0}.nav .links a{display:flex;align-items:center;font-size:1.05rem;font-weight:500;padding:1rem .75rem;margin:0;color:rgba(0,0,0,.45);line-height:1.2;text-align:center}.nav .links a:active,.nav .links a:hover{color:#111}.favicon{height:23px;width:23px;margin-bottom:0}button.dark-switcher{-webkit-appearance:none;border:0;margin:0;background:transparent}button.dark-switcher:focus{outline:none}.theme-icon{height:18px;width:18px;margin-bottom:0}.kofi{margin:0;max-width:35px}@media (min-width:850px){.nav.scroll{box-shadow:1px 2px 18px rgba(0,0,0,.1)}.nav.scroll .nav-container{height:60px}.nav.scroll .links a.active,.nav.scroll .links a:hover{color:#111;border-bottom:2px solid #5183f5}.nav.scroll .links a:active{color:#111;border-bottom:2px dashed #5183f5}.nav .nav-container{height:90px;padding:0 2rem}.nav .nav-container .brand a{font-size:1.3rem}.nav .nav-container .brand .text{display:block}.nav .nav-container .links{display:flex;flex-direction:row;justify-content:space-between;flex:unset;height:100%}.nav .nav-container .links a{font-size:1.2rem;margin:0 1rem;padding:1rem .5rem;border-bottom:2px solid transparent}.nav .nav-container .links a.active{color:#111}.nav .nav-container a.donate-button{padding:.5rem 1.25rem}.nav .nav-container a.donate-button .text{display:block}.nav .nav-container a.donate-button .emoji-in-button{margin:.25rem 0 0 .75rem}.patreon{margin:0;border-radius:4px}.kofi{margin:0;max-width:38px}
+.nav .brand a{
+  display:flex;
+  align-items:center;
+  color:#333;margin-right:0;font-weight:600;font-size:1.1rem
+}
+.nav .brand a:focus,.nav .brand a:hover{color:#000}
+.nav .brand .text{display:none}.nav .links{display:flex;flex-direction:row;justify-content:flex-end;flex:1 1;margin:0}
+.nav .links a{display:flex;align-items:center;font-size:1.05rem;font-weight:500;padding:1rem .75rem;margin:0;color:rgba(0,0,0,.45);line-height:1.2;text-align:center}.nav .links a:active,.nav .links a:hover{color:#111}.favicon{height:23px;width:23px;margin-bottom:0}
+button.dark-switcher{-webkit-appearance:none;border:0;margin:0;background:transparent}button.dark-switcher:focus{outline:none}.theme-icon{height:18px;width:18px;margin-bottom:0}.kofi{margin:0;max-width:35px}@media (min-width:850px){.nav.scroll{box-shadow:1px 2px 18px rgba(0,0,0,.1)}.nav.scroll .nav-container{height:60px}.nav.scroll .links a.active,.nav.scroll .links a:hover{color:#111;border-bottom:2px solid #f15b23}.nav.scroll .links a:active{color:#111;border-bottom:2px dashed #5183f5}.nav .nav-container{height:90px;padding:0 2rem}.nav .nav-container .brand a{font-size:1.3rem}.nav .nav-container .brand .text{display:block}.nav .nav-container .links{display:flex;flex-direction:row;justify-content:space-between;flex:unset;height:100%}.nav .nav-container .links a{font-size:1.2rem;margin:0 1rem;padding:1rem .5rem;border-bottom:2px solid transparent}.nav .nav-container .links a.active{color:#111}.nav .nav-container a.donate-button{padding:.5rem 1.25rem}.nav .nav-container a.donate-button .text{display:block}.nav .nav-container a.donate-button .emoji-in-button{margin:.25rem 0 0 .75rem}.patreon{margin:0;border-radius:4px}.kofi{margin:0;max-width:38px}
 .nav.scroll{background:#FFF;border-color:#202020}.dark .nav .brand a{color:#c1c6d0}.dark .nav .brand a:hover{color:#eee}.dark .nav .links a{color:#969eaf}.dark .nav .links a.active,.dark .nav .links a:hover{color:#b3b9c5}
   .navbar-default .navbar-brand {
     margin-top: 10px;

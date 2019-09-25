@@ -51,6 +51,9 @@ p {
 .pp {
    box-shadow: 10px 10px 5px grey;
 }
+h1 .title {
+  color: #f15b23;
+} 
 h3.project {
   text-align: center;
 }
