@@ -10,7 +10,8 @@
     "format": "prettier  \"src/**/*.{js, html}\" --write",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "test": "jest",
-    "deploy": "gh-pages -d build"
+    "predeploy": "sudo yarn run build",
+    "deploy": "gh-pages -d /dist"
   },
   "author": "Svngoku",
   "license": "ISC",
