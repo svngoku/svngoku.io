@@ -8,7 +8,7 @@ RUN npm build
 
 # Stage 2: Go to production
 FROM nginx:1.12-alpine
-COPY --from="build-deps /root/app/svngoku.io/dist  /usr/share/nginx/html
+COPY --from=build-deps /root/app/svngoku.io/dist  /usr/share/nginx/html
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 
