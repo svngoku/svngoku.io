@@ -23,7 +23,6 @@ export default function Navbar() {
             </div>
            <div className="links">
                 <Link to="svngoku.io/">About</Link> 
-                <Link to="svngoku.io/blogs">Blogs</Link>
                 <Link to="svngoku.io/playground">Playground</Link>
             </div>
        </div> 

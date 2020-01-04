@@ -1,8 +1,6 @@
 import React, { useState, useEffect , Suspense, Fragment} from "react";
 import Embed from 'react-runkit';
 
-
-
 export default function Playground() {
     const [helloSource, setHelloSource] =  useState(`const javastips = require('javastips');
     `)
