@@ -3,7 +3,7 @@ import React from "react";
 // Profile component
 
 export default function Profile({title}) {
-    const imgSrc = "https://scontent-cdt1-1.xx.fbcdn.net/v/t31.0-8/22179930_1712875245413406_3245233517546279080_o.jpg?_nc_cat=100&_nc_oc=AQmWJVcX5lLCfr_iSr5dmz0Q_qp1NP0o9XMViADAUZWjLFoIPuVNKM3fJf5ZdelwqBJ5ozRkDGZTg3OJCpfDcCd-&_nc_ht=scontent-cdt1-1.xx&oh=63e976cdddf2dff9ee66fd1cee0903a1&oe=5EAA644C";
+    const imgSrc = "https://raw.githubusercontent.com/svngoku/Pyline-App/master/pp.png";
     // simple style for fun
     const styles = { display: 'none'};
     return (

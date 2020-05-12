@@ -1,11 +1,25 @@
 import React from "react";
-// import ReactMarkdown from "react-markdown";
-// import SAP from "../../public/markdown/SAP.md"
-// import RenderGist from "react-render-gist";
+import RenderGist from "react-render-gist";
 
+const Blog = () => {
 
+function Header() {
+    return (
+        <div className="header">
+        </div>
+    )
+}
 
-export default function Blog(){
+const BlogContent = ()  => {
+    return (
+       <div className="container">
+         <div className="main">
+            {/* <ReactMarkdown source={SAP} /> */}
+            <RenderGist gist="d5cbf6738d402b5ef00d4bcf5ac26ca9" />
+        </div>
+       </div>
+    );
+}
    return (
     <div>
         <Header />
@@ -15,26 +29,6 @@ export default function Blog(){
    );
 }
 
-function Header() {
-    return (
-        <div className="header">
-            <h1 className="text-center">Blog Page</h1>            
-        </div>
-    )
-}
 
+export default Blog;
 
-
-function BlogContent() {
-    // const input = '# Hello from Venus'
-    //const date = Date();
-    
-    return (
-       <div className="container">
-         <div className="main">
-            <span> Hello World </span>
-            {/* <ReactMarkdown source={SAP} /> */}
-        </div>
-       </div>
-    );
-}

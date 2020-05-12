@@ -15,7 +15,6 @@ function Projects(){
     );
 }
 
-
 function Project({className , title, source , name}) {
     return (
         <div>

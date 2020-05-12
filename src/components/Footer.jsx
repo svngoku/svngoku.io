@@ -15,7 +15,7 @@ export default function Footer() {
                 <a className="btn follow homepage" href={links.portfolio} target="_blank" title="Portfolio"><i></i>
                 <span></span>
                 </a>
-                <small className="contribution"><b>Copyright:</b> 2019 by <a href="https://portefoliomartynio.000webhostapp.com/Portfolio/" target="_blank">Marty NIONGOLO</a></small>
+                <small className="contribution"><b>Copyright:</b> 2020 by <a href="https://portefoliomartynio.000webhostapp.com/Portfolio/" target="_blank">Marty NIONGOLO</a></small>
             </footer>
         </div>
     )
