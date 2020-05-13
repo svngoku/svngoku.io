@@ -10162,7 +10162,7 @@ parcelRequire = function (modules, cache, entry, globalName) {
     }
   }, {}]
 }, {}, ["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js", "../dist/App.js"], null);
-},{}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{}],"../../../../../../../../usr/local/lib/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -10190,7 +10190,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "35725" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50441" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -10221,8 +10221,9 @@ if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
         assetsToAccept.forEach(function (v) {
           hmrAcceptRun(v[0], v[1]);
         });
-      } else {
-        window.location.reload();
+      } else if (location.reload) {
+        // `location` global exists in a web worker context but lacks `.reload()` function.
+        location.reload();
       }
     }
 
@@ -10365,5 +10366,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js","../dist/App.bbe341a4.js"], null)
+},{}]},{},["../../../../../../../../usr/local/lib/node_modules/parcel/src/builtins/hmr-runtime.js","../dist/App.bbe341a4.js"], null)
 //# sourceMappingURL=/App.bbe341a4.834d5184.js.map
