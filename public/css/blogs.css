@@ -1,9 +1,14 @@
 /* Header/logo Title */
 .header {
-    padding: 80px;
+    padding: 4rem 0;
     text-align: center;
     background: #1abc9c;
     color: white;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto;
 }
 
 a:link {
@@ -266,6 +271,12 @@ button.dark-switcher{-webkit-appearance:none;border:0;margin:0;background:transp
     flex-wrap: wrap;
 }
 
+.each {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #eee;
+}
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
@@ -275,6 +286,28 @@ button.dark-switcher{-webkit-appearance:none;border:0;margin:0;background:transp
     padding: 20px;
 }
 
+span .center {
+    text-align: center;
+}
+
+.instruction-manuals > a {
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    display: block;
+    padding: 1rem 0.5rem;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0.2rem 0.25rem 0.75rem 0 rgba(0,0,0,.1);
+    margin: .5rem;
+
+    
+}
+
+.instruction-manuals > a img {
+    width: 75px;
+    max-width: 75px;
+    max-height: 75px;
+}
 /* Main column */
 .main {   
     -ms-flex: 70%; /* IE10 */

@@ -24,7 +24,7 @@ export default function HomePage() {
 
                 {/* Books&Links Component */}
                 <BooksLinks />
-
+                
                 {/* Tools component */}
                 <Tools />
 

@@ -14,12 +14,13 @@ export default function Profile({title}) {
                 <img className="pp" alt="Personnal Profile" src={imgSrc} />
             </a>
           </h1>
+            <a class="github-button" href="https://github.com/svngoku" data-show-count="true" aria-label="Follow @svngoku on GitHub">@svngoku</a>
         </header>
         <section>
             <div>
-                <p>
-                    <b><a href="https://github.com/Svngoku">Svngoku</a></b> is a junior full-stack developer and programmer passionate by programming and web developpment.   
-                    <a onClick={() => toggleMe('detailed-description')} href="#!🕶" ><b>Read<span data-toggle-text="less"> more</span></b></a>
+                <p>I'm
+                    <b><a href="https://github.com/Svngoku"> Chrys Fé-Marty NIONGOLO</a></b>, a junior full-stack developer and programmer passionate by programming and web developpment.   
+                    <a onClick={() => toggleMe('detailed-description')}><b>Read<span data-toggle-text="less"> more</span></b></a>
                 </p>
             </div>
 
