@@ -3,7 +3,7 @@ import RenderGist from "react-render-gist"
 export default function Languages(){
     return (
     <div>
-       <h3 className="project">languages</h3>
+       <h3 className="project">Languages</h3>
       <div> 
         <Language className="js" 
         link="https://www.javascript.com/" 
@@ -74,8 +74,8 @@ export default function Languages(){
 }
 
 function star(number) {
-    const imgStar = "https://dumielauxepices.net/sites/default/files/stars-clipart-explosion-779070-6341730.png";
-    const link = <img className="star" src={imgStar} width="35" />;
+    const imgStar = "https://images.emojiterra.com/twitter/v13.1/512px/2b50.png";
+    const link = <img className="star" src={imgStar} width="13"  height="13" />;
 
     var content = [];
     for(var i = 0; i < number; i++) {

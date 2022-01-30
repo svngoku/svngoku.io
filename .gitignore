@@ -7,3 +7,5 @@ yarn-error.log
 node_modules
 real_index.html
 index.html
+# Local Netlify folder
+.netlify

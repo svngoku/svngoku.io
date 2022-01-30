@@ -4,7 +4,7 @@ function Projects(){
     return (
         <div>
             <h3 className="project">Projects</h3>
-            <p>In 3 years in the world of computer development, I realized some projects as part of my studies, internships and staff.</p>
+            <p>In 6 years in the world of computer programming and data science, I realized some projects as part of my studies, internships and staff.</p>
             <pre>        
                 <Project className="request javascript" title="It's a library based on data stucture and problem solving algorithm in JavaScript ." source="https://github.com/svngoku/javastips" name="Javastips"  />
                 <Project className="request php" title="Application of expense management and tax refund of the M2L" source="https://gitlab.com/Svngoku/fredi-m2l" name="Laravel : Maison des ligues de Lorraines |  FREDI"  />

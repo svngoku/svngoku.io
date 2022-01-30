@@ -1,13 +1,25 @@
 /* CSS CHUCK NORRIS WEB SITE*/
 
+
 body {
- font:16px/1.5 "Courier New", Arial, sans-serif
+ font:16px/1.5 "Courier New", Arial, sans-serif;
 }
-body,a {
+
+a {
  color:#222;
  margin:0;
  padding:0
 }
+
+.more, .dark-switcher {
+    cursor: pointer;
+}
+
+.brand {
+    border-radius: 50%;
+    display: inline-block;
+}
+
 .wrapper {
  margin:0 auto;
  max-width:600px;
@@ -52,24 +64,22 @@ p {
    box-shadow: 10px 10px 5px grey;
 }
 h1 .title {
-  color: #f15b23;
+  color: #0066CC;
 } 
 h3.project {
-  text-align: center;
+    text-align: center;
+    font-weight: bold;
 }
 h3,p {
  padding:0 0 10px;
  margin:10px 0 0
 }
 h3 {
-  color: #f15b23;
+  color: #0066CC;
   font-size:28px;
   font-weight:300;
   margin:0 0 10px;
   padding:0;
-  font-weight: bold;
-  
-
 }
 code {
  overflow-wrap:break-word;
@@ -78,7 +88,7 @@ code {
  padding:0
 }
 code.red {
- color:#f15a24
+ color:#0066CC
 }
 code.quoted:before {
  content:'`'
@@ -105,35 +115,35 @@ code.request a:hover {
  text-decoration:underline
 }
 code.request.sql:before {
- color:#f15a24;
+ color:#0066CC;
  content:'SQL '
 }
 code.request.c:before {
- color:#f15a24;
+ color:#0066CC;
  content:'C# '
 }
 code.request.css:before {
- color:#f15a24;
+ color:#0066CC;
  content:'CSS '
 }
 code.request.code:before {
- color:#f15a24;
+ color:#0066CC;
  content:'Coding '
 }
 code.request.tools:before {
- color:#f15a24;
+ color:#0066CC;
  content:'Tools '
 }
 code.request.python:before {
- color:#f15a24;
+ color:#0066CC;
  content:'Python 3 '
 }
 code.request.javascript:before {
- color:#f15a24;
+ color:#0066CC;
  content:'JavaScript '
 }
 code.request.php:before {
- color:#f15a24;
+ color:#0066CC;
  content:'PHP '
 }
 blockquote {
