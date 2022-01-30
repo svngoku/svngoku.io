@@ -15,6 +15,7 @@ export default function Profile({title}) {
             </a>
           </h1>
             <a className="github-button" href="https://github.com/svngoku" data-show-count="true" aria-label="Follow @svngoku on GitHub">@svngoku</a>
+            {/* <script src="https://gist.github.com/svngoku/5e3b1e9ff094b7eda68b6f395385ad47.js"></script> */}
         </header>
         <section>
             <div>
@@ -43,6 +44,10 @@ export default function Profile({title}) {
                 </p>
             </div>
         </section>
+        <section>
+            <GitProfile />
+        </section>
+
 
        </div>
     );
@@ -60,3 +65,23 @@ function toggleMe(n){
         e.style.display='none'
     };return!0
 };
+
+
+const GitProfile = () => {
+    return (
+    <React.Fragment>
+        <div>
+            <h3 className="project">🏆 Profile</h3>
+            <div align="center">
+                <img alt="" className="github_profile" src="https://github-readme-streak-stats.herokuapp.com?user=Svngoku&hide_border=false" alt="jaayperez" /> <br />
+                <br />
+                <img alt="" className="github_profile" src="https://github-readme-stats.vercel.app/api?username=svngoku&show_icons=true&count_private=true&theme=merko&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
+                <br />
+
+                <img alt="" className="github_profile" src="https://github-readme-stats.vercel.app/api/top-langs/?layout=compact&username=svngoku&theme=merko&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
+            </div>
+        </div>                                                                                                       
+    </React.Fragment>
+
+    );
+} 
